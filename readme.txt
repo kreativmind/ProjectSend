@@ -13,7 +13,8 @@ Main website:
 http://www.projectsend.org/
 
 Project:
-http://code.google.com/p/clients-oriented-ftp/
+https://github.com/ignacionelson/ProjectSend/
+Old repository http://code.google.com/p/clients-oriented-ftp/
 
 Translations:
 https://www.transifex.com/projects/p/projectsend/
@@ -34,6 +35,12 @@ When those are steps are completed, follow this instructions:
 
 Congratulations! ProjectSend is now installed and ready for action!
 You may login with your new username and password.
+
+Important Note: for v.608 and later you will need to enable PDO extension from php.ini
+
+extension=php_pdo.dll
+extension=php_pdo_mysql.dll
+and restart the service if your are local
 
 --------------------------------------------------------------------------------------------
 
@@ -122,6 +129,7 @@ Many thanks to the authors of the following scripts, which are used on ProjectSe
 Also, thank you to the following people/communities that helped during development, either
 by giving support, sending code, translations, etc.
 
+- lenamtl
 - Alejandro D'Ambrosio
 - k.flipflip
 - Diego Carreira Vidal
